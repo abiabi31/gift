@@ -1,12 +1,15 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function AppRoutes() {
+import AppRoutes from "./Routes/AppRoutes";
+
+function App() {
   return (
-    <BrowserRouter basename="/anish">
-      <Routes>{/* your routes */}</Routes>
-    </BrowserRouter>
+    <div className="app-shell">
+      <main className="app-main">
+        <AppRoutes />
+      </main>
+    </div>
   );
 }
 
-export default AppRoutes;
+export default App;

@@ -34,7 +34,7 @@ const galleryImages = [
   { src: "/images/birthday-5.jpg", alt: "A joyful celebration with friends" },
 ];
 
-function App() {
+function Birthday() {
   const audioContextRef = useRef<AudioContext | null>(null);
   const masterGainRef = useRef<GainNode | null>(null);
   const clockAuraRef = useRef<HTMLSpanElement | null>(null);
@@ -773,4 +773,4 @@ function App() {
   );
 }
 
-export default App;
+export default Birthday;
