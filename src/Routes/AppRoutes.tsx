@@ -1,11 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Birthday from "../Birthday/Birthday";
 
 function AppRoutes() {
   return (
-    <Routes>
-      <Route path="/" element={<Birthday />} />
-    </Routes>
+    <BrowserRouter basename="/gift">
+      <Routes>
+        <Route path="/" element={<Birthday />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
