@@ -1,9 +1,3 @@
-// import Birthday from "../anish/Birthday";
-
-// const AppRoutes = () = return <Birthday />;
-// };
-
-// export default AppRoutes;
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Birthday from "../anish/Birthday";
 
