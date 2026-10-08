@@ -3,7 +3,7 @@ import Birthday from "../Birthday/Birthday";
 
 function AppRoutes() {
   return (
-    <BrowserRouter basename="/anish">
+    <BrowserRouter basename="/birthday">
       <Routes>
         <Route path="/" element={<Birthday />} />
       </Routes>
